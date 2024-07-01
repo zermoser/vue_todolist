@@ -4,7 +4,7 @@ import HomeView from '../views/homeView.vue'
 import EditView from '../views/editView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/vue_todolist/'),
   routes: [
     {
       path: '/',
